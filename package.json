@@ -1,0 +1,14 @@
+{
+  "name": "chart-docker",
+  "version": "1.0.0",
+  "description": "Server to generate charts using Chart.js in Docker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "chartjs-node-canvas": "^4.0.0",
+    "canvas": "^2.11.0"
+  }
+}
